@@ -1,0 +1,5 @@
+RewriteEngine on
+Options +FollowSymLinks
+RewriteBase / 
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png|eot|svg|ttf|woff)$ [NC]
+RewriteRule ^(.*)+/?$ index.php [L]

@@ -1,0 +1,30 @@
+{
+	"Home#index": {
+		"url": "/",
+		"method": "GET"
+	},
+	"Login#formLogin": {
+		"url": "/login",
+		"method": "GET"
+	},
+	"Login#logging":{
+		"url": "/login",
+		"method": "POST"
+	},
+	"Login#logout":{
+		"url": "/logout",
+		"method": "POST"
+	},
+	"Static#about":{
+		"url": "/about",
+		"method": "GET"
+	},
+	"Static#events":{
+		"url": "/events",
+		"method": "GET"
+	},
+	"Static#contact":{
+		"url": "/contact",
+		"method": "GET"
+	}
+}
